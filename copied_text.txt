@@ -1,0 +1,145 @@
+for mAL
+w[1118]; P{y[+t7.7] w[+mC]=GMR25E04-GAL4}attP2
+
+R43D01-Gal4 #48151 from Kallman 2015 which is not found anymore, which should include fru+ GABAergic mAL neurons. To label mAL you also need fru-LexA and LexAop-FLP.
+w[1118]; P{y[+t7.7] w[+mC]=GMR43D01-GAL4}attP2
+
+P1a-split GAl4
+; R15A01-AD; R71G01-DBD
+
+for vPN1 split-GAL4,  R72E10-AD, chr2
+w[1118]; P{y[+t7.7] w[+mC]=R72E10-p65.AD}attP40
+
+UAS CsChrimson no balancer, chr3
+w[1118]; P{y[+t7.7] w[+mC]=20XUAS-IVS-CsChrimson.mVenus}attP2
+
+20xUAS GtACR1
+w;;UAS20x-GtACR1
+
+20xUAS GCAMP6m UAS tdTOM dsx Gal4  (NOT SURE OF Tm6.tb)
+UAS20x-GCaMP6m-UAS-tdTom/cyo;dsx-Gal4/Tm6.tb
+
+from Elsa:   for pC2l activation, stock#66 with Tm6
+UAS<stop>Chrimson-Venus/cyo; 8xLexAop2-FLP, dsx-LexA/Tm6
+
+from Elsa:   R42B01-GAl4   chr 3  (but not totally sure)
+;;R42B01-GAL4
+
+from Elsa
+s/cyo ; R42B01-Gal4/Tm6b
+
+from Elsa:  for TNT of pC2l
+s/cyo ; lexAop-FLP, dsx-LexA / TM2
+
+UAS-TNT  (#114)
+UAS-TNT ; ; 
+
+UAS-TNT inactive  (#115)
+; ; UAS-TNT inactive
+
+for mAL
+w[1118]; P{y[+t7.7] w[+mC]=GMR71G01-GAL4}attP2
+
+for TNT of pC2l    stock#82
+; UAS <stop> TNT /cyo ; lexAop-FLP/Tm6.tb
+
+for vPN1 split-GAL4, VT9665-DBD, chr3
+w[1118]; P{y[+t7.7] w[+mC]=VT009665-GAL4.DBD}attP2
+
+vPN1 split-GAL4, R72E10-AD ; VT9665-DBD
+; R72E10-AD ; VT9665-DBD
+
+vPN1 split-GAL4 (activation)
+; R72E10-AD; VT9665-DBD/UAS-CsChrimson
+
+vPN1 split-GAL4 (inactivation)
+; R72E10-AD; VT9665-DBD/UAS-GtACR1
+
+vPN1 split-GAL4 (imaging dsx while activating vPN1)
+R72E10-GAL4AD/UAS-CsChrimson; VT9665-GAL4DBD, dsxLexA/LexAop2-GCaMP6m
+
+UAS <stop> TNT /cyo ; lexAop-FLP, dsx-lexA/Tm6.tb
+UAS <stop> TNT /cyo ; lexAop-FLP, dsx-lexA/Tm6.tb
+
+Or67d-Gal4 (cVA)
+w[*]; P{w[+mC]=Or67d-GAL4.F}57.2
+
+Gr32a-Gal4 (7-T)
+w[*]; wg[Sp-1]/CyO; P{w[+mC]=Gr32a-GAL4.3.7.PW}1L
+
+for p1c or p1d
+w[1118]; P{y[+t7.7] w[+mC]=R17D06-p65.AD}attP40
+
+for p1e
+w[1118]; P{y[+t7.7] w[+mC]=GMR71G01-lexA}attP40
+
+for p1a or p1b
+w[1118]; P{y[+t7.7] w[+mC]=R15A01-p65.AD}attP40
+
+for p1a or p1c
+w[1118]; P{y[+t7.7] w[+mC]=R71G01-GAL4.DBD}attP2
+
+for p1b or p1d
+w[1118]; P{y[+t7.7] w[+mC]=R22D03-GAL4.DBD}attP2
+
+vglut-FLP
+TI{2A-FLP}VGlut[2A-FLP]/CyO
+
+vglut-AD
+w[*]; TI{2A-p65(AD)::Zip+}VGlut[2A-p65AD]/CyO
+
+PPN1-Gal4 , chr3
+w[1118]; P{y[+t7.7] w[+mC]=GMR56C09-GAL4}attP2
+
+PPN1-lexA, chr2
+w[1118]; P{y[+t7.7] w[+mC]=GMR56C09-lexA}attP40
+
+orco Gal4 ; TM2/TM6B,Tb
+w[*]; P{w[+mC]=Orco-GAL4.W}11.17; TM2/TM6B, Tb[1]
+
+Or47b Gal4, chr 2
+w[*]; P{w[+mC]=Or47b-GAL4.7.467}15.5A
+
+from Elsa, broad mAL
+w[1118]; P{y[+t7.7] w[+mC]=GMR25E04-GAL4}attP2
+
+UAS > stop > Kir2.1 on chr2
+w[*]; P{w[+mC]=UAS(FRT.stop)Hsap\KCNJ2}VIE-19A/CyO
+
+
+for mAL
+R43D01-Gal4 #48151 from Kallman 2015 which is not found anymore, which should include fru+ GABAergic mAL neurons. To label mAL you also need fru-LexA and LexAop-FLP.
+P1a-split GAl4
+for vPN1 split-GAL4,  R72E10-AD, chr2
+UAS CsChrimson no balancer, chr3
+20xUAS GtACR1
+20xUAS GCAMP6m UAS tdTOM dsx Gal4  (NOT SURE OF Tm6.tb)
+from Elsa:   for pC2l activation, stock#66 with Tm6
+from Elsa:   R42B01-GAl4   chr 3  (but not totally sure)
+from Elsa
+from Elsa:  for TNT of pC2l
+UAS-TNT  (#114)
+UAS-TNT inactive  (#115)
+for mAL
+for TNT of pC2l    stock#82
+for vPN1 split-GAL4, VT9665-DBD, chr3
+vPN1 split-GAL4, R72E10-AD ; VT9665-DBD
+vPN1 split-GAL4 (activation)
+vPN1 split-GAL4 (inactivation)
+vPN1 split-GAL4 (imaging dsx while activating vPN1)
+UAS <stop> TNT /cyo ; lexAop-FLP, dsx-lexA/Tm6.tb
+Or67d-Gal4 (cVA)
+Gr32a-Gal4 (7-T)
+for p1c or p1d
+for p1e
+for p1a or p1b
+for p1a or p1c
+for p1b or p1d
+vglut-FLP
+vglut-AD
+PPN1-Gal4 , chr3
+PPN1-lexA, chr2
+orco Gal4 ; TM2/TM6B,Tb
+Or47b Gal4, chr 2
+from Elsa, broad mAL
+UAS > stop > Kir2.1 on chr2
